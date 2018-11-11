@@ -15,7 +15,7 @@
 
 
 <h3>What tasks are blocking waiting on another team member?</h3>
-    None.
+    &nbsp;&nbsp;&nbsp;&nbsp;None.
 
 <h3>XP Value: Feedback</h3>
 
