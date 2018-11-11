@@ -24,3 +24,21 @@
 - We checked with other Unity experts about the learning curve, capability etc.
 
 - We met multiple times in the last week in person and over the phone to make sure that we had an idea of what everyone is doing and shared our opinions.
+
+
+### Team Member : Nikita Bairagi ###
+
+##### What task did I work on / complete : #####
+- Researched on various game ideas
+- Decided on game engine as Unity and game idea.
+
+##### What am I planning to work on next : #####
+- Getting friendly with Unity
+- Develop a game screen in unity simulating the real world example of Observer Pattern
+
+##### What task are blocked waiting on another team member : #####
+- None
+
+##### XP Core Value - Communication : #####
+- We held 2 skype meetings and met regularly to discuss about game ideas and share every team member view and suggestion on it.
+
