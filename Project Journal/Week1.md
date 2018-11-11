@@ -19,8 +19,8 @@
 
 <h3>XP Value: Feedback</h3>
 
-- We did add a new column in the Project taskboard in Github to make sure that everything we did individually went through a review by other team members.
+- We added a new column in the Project taskboard in Github to make sure that everything we did individually went through a review by other team members.
 
-- We did check with other Unity experts about the learning difficulty, capability etc.
+- We checked with other Unity experts about the learning curve, capability etc.
 
-- We did meet multiple times in the week physically and over the phone to make sure we had an idea of what everyone is doing and shared our opinions.
+- We met multiple times in the last week in person and over the phone to make sure that we had an idea of what everyone is doing and shared our opinions.
