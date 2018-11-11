@@ -1,4 +1,4 @@
-<h2>Team Member:Sneha</h2>
+<h2>Team Member: Sneha</h2>
 
 <h3>What tasks did I work on/complete?</h3>
 
