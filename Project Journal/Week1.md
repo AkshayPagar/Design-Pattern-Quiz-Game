@@ -27,7 +27,7 @@
 
 
 ### Team Member : Nikita Bairagi ###
-
+---
 ##### What task did I work on / complete : #####
 - Researched on various game ideas
 - Decided on game engine as Unity and game idea.
