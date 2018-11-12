@@ -1,44 +1,36 @@
-<h2>Team Member: Sneha</h2>
-
-<h3>What tasks did I work on/complete?</h3>
-
+## Team Member: Sneha Thomas
+---
+#### What tasks did I work on/complete ?
 - Researched on different game engines like Greenfoot and Unity and compared them to identify pros and cons, suitability to our project idea, capability etc.
-
 - Researched on different game ideas especially on the Avengers idea and identified different features that can be added to it.
 
-
-<h3>What am I planning to work on next?</h3>
-
+#### What am I planning to work on next ?
 - Learn Unity in detail and how design patterns can be applied in game development.
-
 - Design screens that are assigned to me for the project.
 
 
-<h3>What tasks are blocking waiting on another team member?</h3>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;None.
+#### What tasks are blocking waiting on another team member ?
+- None
 
-<h3>XP Value: Feedback</h3>
-
+#### XP Value: Feedback
 - We added a new column in the Project taskboard in Github to make sure that everything we did individually went through a review by other team members.
-
 - We checked with other Unity experts about the learning curve, capability etc.
-
 - We met multiple times in the last week in person and over the phone to make sure that we had an idea of what everyone is doing and shared our opinions.
 
 
-### Team Member : Nikita Bairagi ###
+## Team Member : Nikita Bairagi
 ---
-##### What task did I work on / complete : #####
+#### What task did I work on / complete ?
 - Researched on various game ideas
 - Decided on game engine as Unity and game idea.
 
-##### What am I planning to work on next : #####
+#### What am I planning to work on next ?
 - Getting friendly with Unity
 - Develop a game screen in unity simulating the real world example of Observer Pattern
 
-##### What task are blocked waiting on another team member : #####
+#### What task are blocked waiting on another team member ?
 - None
 
-##### XP Core Value - Communication : #####
+#### XP Core Value - Communication :
 - We held 2 skype meetings and met regularly to discuss about game ideas and share every team member view and suggestion on it.
 
