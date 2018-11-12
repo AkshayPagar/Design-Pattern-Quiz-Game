@@ -34,3 +34,20 @@
 #### XP Core Value - Communication :
 - We held 2 skype meetings and met regularly to discuss about game ideas and share every team member view and suggestion on it.
 
+## Team Member : Mayur Barge
+---
+#### What task did I work on / complete ?
+- Worked on initial setup of GitHub and Google sheet
+- Completed unity tutorials
+- Worked with team members to provide feedback on their ideas
+
+#### What am I planning to work on next ?
+- Develop screens for Adaptor pattern
+
+#### What task are blocked waiting on another team member ?
+- None
+
+#### XP Core Value - Simplicity :
+- Divided selected game into easy and difficult stage
+- Worked within team to target low hanging fruits with initial design
+
