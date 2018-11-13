@@ -50,4 +50,24 @@
 #### XP Core Value - Simplicity :
 - Divided selected game into easy and difficult stage
 - Worked within team to target low hanging fruits with initial design
+########
 
+
+## Team Member : Akshay Pagar
+---
+#### What task did I work on / complete ?
+- Reserached on various game ideas and finalized a game based on everyone's agreement.
+- Researched on Unity and Greenfoot game design platforms and decided on which platform we should design the game. 
+- Learnt and took a tutorial on unity. 
+- Worked with team members to provide feedback on their ideas
+
+#### What am I planning to work on next ?
+- Develop screens for Composite design pattern in Unity and assist other teamm members if they face some issues while designing game screens. 
+
+#### What task are blocked waiting on another team member ?
+- None
+
+#### XP Core Value - Respect: 
+- Every project team member's game idea was researched and discussed thoroughly before finalizing the project idea. 
+- Every project member was appreciated for the work they have completed.
+########
