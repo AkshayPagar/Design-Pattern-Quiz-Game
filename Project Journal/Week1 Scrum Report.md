@@ -6,7 +6,7 @@
 
 #### What am I planning to work on next ?
 - Learn Unity in detail and how design patterns can be applied in game development.
-- Design screens that are assigned to me for the project.
+- Develop 3D screens in Unity for State Pattern.
 
 
 #### What tasks are blocking waiting on another team member ?
