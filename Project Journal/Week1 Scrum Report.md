@@ -50,7 +50,6 @@
 #### XP Core Value - Simplicity :
 - Divided selected game into easy and difficult stage
 - Worked within team to target low hanging fruits with initial design
-########
 
 
 ## Team Member : Akshay Pagar
