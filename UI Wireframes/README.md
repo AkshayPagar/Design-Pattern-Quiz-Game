@@ -1,6 +1,6 @@
 
 ### Screen 1
-![Screen 1](screen1.jpeg)
+![Screen 1](screen%201.jpeg)
 ### Screen 2
 ![Screen 2](screen%202.jpeg)
 ### Screen 3
