@@ -9,4 +9,4 @@
 
 ## UI Wireframes
 
-UI wireframes available [here](UI%Wireframes/README.md) for **Mystery Room Design Patterns** project.
+UI wireframes available [here](UI%20Wireframes/README.md) for **Mystery Room Design Patterns** project.
