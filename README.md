@@ -1,8 +1,12 @@
-<h2>Team Name:fa18-202-brainy-amigos</h2>
+# Brainy Amigos
 
-<h2>Team Members</h2>
+## Team Members
 
-<br>Akshay Pagar </br>
-<br>Mayur Barge </br>
-<br>Nikita Bairagi </br>
-<br>Sneha Thomas</br>
+- Akshay Pagar
+- Mayur Barge
+- Nikita Bairagi
+- Sneha Thomas
+
+## UI Wireframes
+
+UI wireframes available [here](UI%Wireframes/README.md) for **Mystery Room Design Patterns** project.
