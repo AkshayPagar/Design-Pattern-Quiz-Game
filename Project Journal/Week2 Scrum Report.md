@@ -19,6 +19,23 @@
 - Every project member was appreciated for the work they have completed.
 
 
+## Team Member : Sneha Thomas
+---
+#### What task did I work on / complete ?
+- Created UI Wireframes for the project.
+- Learnt how to use Unity to build scenes.
+- Researched and identified the design patterns that can be used in our project.
+- Developed 2 3D scenes for  State Pattern. 
 
+#### What am I planning to work on next ?
+- Develop the ScoreBoard object and update the score as the user answers the question depending on whether it is right or wrong.
+- Create UML diagrams for the game.
+
+#### What task are blocked waiting on another team member ?
+- None
+
+#### XP Core Value: Feedback
+- We reviewed the 3D screens developed by everyone and identified  how it can be made better .
+- We met in-person and discussed everyone's view on the design patterns that are applicable to our game features and came up with a final solution.
 
 
