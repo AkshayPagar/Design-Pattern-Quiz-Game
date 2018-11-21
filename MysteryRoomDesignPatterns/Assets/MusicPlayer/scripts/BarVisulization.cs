@@ -32,8 +32,8 @@ public class BarVisulization : MonoBehaviour
         int i = 0;
         while (i < 15)
         {
-            barsSprites[i].transform.localScale = new Vector3(musicData[i], 0.2f, 1);
-            barsSprites[i].color = HSVtoRGB((musicData[i]+1.0f) * colorMultiplyer, s, v, 1);
+            //barsSprites[i].transform.localScale = new Vector3(musicData[i], 0.2f, 1);
+            //barsSprites[i].color = HSVtoRGB((musicData[i]+1.0f) * colorMultiplyer, s, v, 1);
             i++;
         }
 
