@@ -38,4 +38,20 @@
 - We reviewed the 3D screens developed by everyone and identified  how it can be made better .
 - We met in-person and discussed everyone's view on the design patterns that are applicable to our game features and came up with a final solution.
 
+## Team Member : Nikita Bairagi
+---
+#### What task did I work on / complete ?
+- Learnt Unity to build scenes.
+- Developed 3D scene for  Observer Pattern.
+
+#### What am I planning to work on next ?
+- Work on developing the game screen where questions,timer, score-board will appear along with the scene associated with that question.
+
+#### What task are blocked waiting on another team member ?
+- None
+
+#### XP Core Value: Communication
+- Throught the week we communicated about the progress in learning Unity as well as developing the screen. 
+- We held meetings for dicussing about the implementation of game and dicussed the look and feel of the game.
+
 
