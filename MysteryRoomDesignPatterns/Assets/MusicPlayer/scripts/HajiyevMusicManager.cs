@@ -504,7 +504,9 @@ public class HajiyevMusicManager : MonoBehaviour {
         if (dontDestroyOnLoad) {
             if (_instance != null && _instance != this) {
                 Debug.LogError("Duplicate singleton " + this.gameObject + " created; destroying it now");
-                Destroy(this.gameObject);
+                //Destroy(this.gameObject);
+
+                DontDestroyChildOnLoad(this.gameObject);
             }
 
             if (_instance != this) {
@@ -515,6 +517,19 @@ public class HajiyevMusicManager : MonoBehaviour {
             _instance = this;
         }
     }
+    public static void DontDestroyChildOnLoad(GameObject child)
+    {
+        Transform parentTransform = child.transform;
+
+        // If this object doesn't have a parent then its the root transform.
+        while (parentTransform.parent != null)
+        {
+            // Keep going up the chain.
+            parentTransform = parentTransform.parent;
+        }
+        GameObject.DontDestroyOnLoad(parentTransform.gameObject);
+    }
+
     #endregion
 
     #region Internal Methods
