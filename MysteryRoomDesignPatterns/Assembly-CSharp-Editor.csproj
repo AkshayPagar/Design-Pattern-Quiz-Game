@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Fake Interiors FREE\Plugins\Editor\ASEFakeInspector.cs" />
     <Compile Include="Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs" />
     <Compile Include="Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs" />
     <Compile Include="Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs" />

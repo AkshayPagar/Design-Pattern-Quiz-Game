@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Laptop\ZoomInLaptop.cs" />
+    <Compile Include="Assets\MenuScript.cs" />
     <Compile Include="Assets\MusicPlayer\scripts\BarVisulization.cs" />
     <Compile Include="Assets\MusicPlayer\scripts\HajiyevMusicManager.cs" />
     <Compile Include="Assets\MusicPlayer\scripts\moveAnimation.cs" />
@@ -72,6 +73,8 @@
     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshSurface.cs" />
     <Compile Include="Assets\RunemarkStudio\DarkFantasyKit [Free]\Readme\Parts\Readme.cs" />
+    <Compile Include="Assets\Scenes\LightsBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Button.cs" />
     <Compile Include="Assets\SimpleTraffic\Scripts\Agent.cs" />
     <Compile Include="Assets\SimpleTraffic\Scripts\Junction.cs" />
     <Compile Include="Assets\SimpleTraffic\Scripts\JunctionTrigger.cs" />
@@ -84,9 +87,17 @@
     <Compile Include="Assets\SimpleTraffic\Scripts\Train.cs" />
     <Compile Include="Assets\SimpleTraffic\Scripts\Vehicle.cs" />
     <Compile Include="Assets\SimpleTraffic\Scripts\WaitZone.cs" />
-    <None Include="Assets\Laptop\StandardColorMask.shader" />
+    <None Include="Assets\_Barking_Dog\Readme_Please.txt" />
+    <None Include="Assets\Fake Interiors FREE\Readme.txt" />
     <None Include="Assets\Demo\Shaders\WorldUnit-Unlit.shader" />
+    <None Include="Assets\Basement pack\Read me.txt" />
+    <None Include="Assets\Smartphone\StandardColorMask.shader" />
+    <None Include="Assets\Fake Interiors FREE\Examples\Shaders\Fake Interiors Free.shader" />
     <None Include="Assets\Demo\Shaders\Unlit-TransparentColor.shader" />
+    <None Include="Assets\StoneWalls\readme.txt" />
+    <None Include="Assets\Fake Interiors FREE\Examples\Shaders\Props.shader" />
+    <None Include="Assets\Laptop\StandardColorMask.shader" />
+    <None Include="Assets\FREE Food Pack\Shaders\Food.shader" />
     <None Include="Assets\MusicPlayer\license.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/MyWorld/Personal/Sneha/Studies/202-Paul/TeamProjectGithub/fa18-202-brainy-amigos/fa18-202-brainy-amigos/MysteryRoomDesignPatterns/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
