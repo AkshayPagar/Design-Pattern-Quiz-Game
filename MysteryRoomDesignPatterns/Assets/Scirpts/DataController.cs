@@ -2,23 +2,42 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.IO;
+
 
 public class DataController : MonoBehaviour {
 
-    public RoundData roundData;
-	// Use this for initialization
-	void Start() {
+    public int timeLimit;
+    public int pointsAddedForCorrectAnswers;
+    public QuestionData[] questions;
+    public Scene[] scenes;
+   // public AnswerData[] answers;
+
+
+    // Use this for initialization
+    void Start() {
         DontDestroyOnLoad(gameObject); // Object will persist on loading new scenes
         SceneManager.LoadScene("MenuScene");
-
-    
-	}
-
-    public RoundData getRoundData() {
-        return roundData;
+        InitScenes();
     }
-	// Update is called once per frame
-	void Update () {
+
+    public void InitScenes()
+    {
+        int sceneCount = 3;
+            //SceneManager.sceneCountInBuildSettings;
+        scenes = new Scene[sceneCount];
+
+        for (int i = 0; i < sceneCount; i++)
+        {
+            // questions[i] = Path.GetFileNameWithoutExtension(SceneUtility.GetScenePathByBuildIndex(i));
+            scenes[i] = SceneManager.GetSceneByBuildIndex(sceneCount);
+            questions[i].scene = scenes[i];
+
+        }
+    }
+
+    // Update is called once per frame
+    void Update () {
 		
 	}
 }
