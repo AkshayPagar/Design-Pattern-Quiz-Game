@@ -9,10 +9,7 @@ public class DataController : MonoBehaviour {
 
     public int timeLimit;
     public int pointsAddedForCorrectAnswers;
-    public QuestionData[] questions;
-    public Scene[] scenes;
-   // public AnswerData[] answers;
-
+    public List<QuestionData> questions = new List<QuestionData>();
 
     // Use this for initialization
     void Start() {
@@ -23,16 +20,13 @@ public class DataController : MonoBehaviour {
 
     public void InitScenes()
     {
-        int sceneCount = 3;
-            //SceneManager.sceneCountInBuildSettings;
-        scenes = new Scene[sceneCount];
+        int sceneCount = (SceneManager.sceneCountInBuildSettings);
+        QuestionData question = new QuestionData();       
 
-        for (int i = 0; i < sceneCount; i++)
+        for (int i = 3; i < sceneCount; i++)
         {
-            // questions[i] = Path.GetFileNameWithoutExtension(SceneUtility.GetScenePathByBuildIndex(i));
-            scenes[i] = SceneManager.GetSceneByBuildIndex(sceneCount);
-            questions[i].scene = scenes[i];
-
+           question.scenePath = Path.GetFileNameWithoutExtension(SceneUtility.GetScenePathByBuildIndex(i));
+           questions.Add(question);
         }
     }
 

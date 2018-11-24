@@ -15,6 +15,7 @@ public class AnswerButton : MonoBehaviour {
 
     public void SetUp(AnswerData data) {
         answerData = data;
+        Debug.Log(answerData.answerText);
         answerText.text = answerData.answerText;
     }
 

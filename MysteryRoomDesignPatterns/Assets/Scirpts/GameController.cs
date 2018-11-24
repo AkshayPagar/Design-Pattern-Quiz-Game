@@ -8,11 +8,12 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour {
 
     public SimpleObjectPool answerButtonObjectPool;
-    public Scene scene;
+    // public Scene scene;
+    public string path;
     public Transform answerButtonParent;
 
     private DataController dataController;
-    private QuestionData[] questionPool;
+    private List<QuestionData> questionPool;
     private List<GameObject> answerButtonGameObjects = new List<GameObject>();
 
     private float timeRemaining;
@@ -22,8 +23,10 @@ public class GameController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        DontDestroyOnLoad(gameObject); // Object will persist on loading new scenes
         dataController = FindObjectOfType<DataController>();
         questionPool = dataController.questions;
+        Debug.Log(dataController.questions);
         timeRemaining = dataController.timeLimit;
 
         playerScore = 0;
@@ -34,17 +37,25 @@ public class GameController : MonoBehaviour {
 
     public void ShowQuestion() {
         RemoveAnswerButtons();
-        QuestionData questionData = questionPool[questionIndex]; 
-        scene = questionData.scene;
+        QuestionData questionData = questionPool[questionIndex];
+        path = questionData.scenePath;
+        Debug.Log(path);
 
-        for (int i = 0; i < questionData.answers.Length; i++) {
-            GameObject answerButtonGameObject = answerButtonObjectPool.GetObject();
-            answerButtonGameObject.transform.SetParent(answerButtonParent);
-            answerButtonGameObjects.Add(answerButtonGameObject);
+        SceneManager.LoadScene(path);
 
-            AnswerButton answerButton = answerButtonGameObject.GetComponent<AnswerButton>();
-            answerButton.SetUp(questionData.answers[i]);
-        }
+       // for (int i = 0; i < questionData.answers.Length; i++)
+        //{
+          //  GameObject answerButtonGameObject = answerButtonObjectPool.GetObject();
+            //answerButtonGameObject.transform.SetParent(answerButtonParent);
+            //answerButtonGameObjects.Add(answerButtonGameObject);
+
+//            AnswerButton answerButton = answerButtonGameObject.GetComponent<AnswerButton>();
+  //          answerButton.SetUp(questionData.answers[i]);
+
+    //    }
+
+
+
     }
 
     // Remove Answer Buttons that are currently in use

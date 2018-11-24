@@ -6,6 +6,6 @@ using UnityEngine.SceneManagement;
 [System.Serializable]
 public class QuestionData {
 
-    public Scene scene; 
+    public string scenePath;
     public AnswerData[] answers;
 }

@@ -140,32 +140,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4736d99cd8776408024ba85297e248, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLimit: 300
+  timeLimit: 0
   pointsAddedForCorrectAnswers: 0
-  questions:
-  - answers:
-    - answerText: A
-      isCorrect: 1
-    - answerText: B
-      isCorrect: 0
-    - answerText: C
-      isCorrect: 0
-    - answerText: D
-      isCorrect: 0
-  - answers:
-    - answerText: A
-      isCorrect: 1
-    - answerText: B
-      isCorrect: 0
-    - answerText: C
-      isCorrect: 0
-    - answerText: D
-      isCorrect: 0
-  - answers:
-    - answerText: A
-      isCorrect: 1
-    - answerText: B
-      isCorrect: 0
+  questions: []
 --- !u!4 &236873038
 Transform:
   m_ObjectHideFlags: 0
