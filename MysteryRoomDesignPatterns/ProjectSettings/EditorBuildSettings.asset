@@ -5,37 +5,37 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Persistent.unity
     guid: 22ec4a45eaba4bd4b87cc7e8a04895cb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MenuScene.unity
     guid: 985b881de947b5e49abd6d651722f78c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game.unity
     guid: b150046c3dda34a498e5696aa01ab22c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CarHeadlightsAsObserver.unity
     guid: 2f13e4be2595b854a8cbd3fc207726cf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Adapter Hall.unity
     guid: 33c750269d79b9e4495c81725ad9e076
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Traffic.unity
     guid: 0b5d4f032974a0a439afacf9c8f1b393
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/Scenes/Bedroom.unity
     guid: 88112b95c7c81704f882a2e142876951
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Kitchen.unity
     guid: 8562877ac2a810d459190fbfa560dbd8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Living Room.unity
     guid: 532fca70da2970d4295dca40c205328a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LivingRoom.unity
     guid: 9bcd35e7057722442966498298ba9cf9
   m_configObjects: {}

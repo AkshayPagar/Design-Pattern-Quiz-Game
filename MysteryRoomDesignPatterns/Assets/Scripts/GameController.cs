@@ -41,7 +41,7 @@ public class GameController : MonoBehaviour {
         path = questionData.scenePath;
         Debug.Log(path);
 
-        SceneManager.LoadScene(path);
+        //SceneManager.LoadScene(path);
 
        // for (int i = 0; i < questionData.answers.Length; i++)
         //{
