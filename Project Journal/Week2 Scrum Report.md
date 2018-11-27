@@ -54,4 +54,19 @@
 - Throught the week we communicated about the progress in learning Unity as well as developing the screen. 
 - We held meetings for dicussing about the implementation of game and dicussed the look and feel of the game.
 
+## Team Member : Mayur Barge
+---
+#### What task did I work on / complete ?
+- Worked on UI Wireframes for project
+- Learnt how to build scenes in Unity framework.
+- Designed 1 scene for Adaptor pattern.
+
+#### What am I planning to work on next ?
+- Develop Hint feature so that only single hint can be used. 
+
+#### What task are blocked waiting on another team member ?
+- None
+
+#### XP Core Value - Simplicity: 
+- Initiated discussion on removing unused 3D asset from game to make project simple
 

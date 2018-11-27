@@ -65,6 +65,7 @@
      <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshSurface.cs" />
      <Compile Include="Assets\RunemarkStudio\DarkFantasyKit [Free]\Readme\Parts\Readme.cs" />
      <Compile Include="Assets\RunemarkStudio\Scripts\Button.cs" />
+     <Compile Include="Assets\Scripts\Adaptor.cs" />
      <Compile Include="Assets\Scripts\Button2.cs" />
      <Compile Include="Assets\Scripts\CanvasButton.cs" />
      <Compile Include="Assets\Scripts\LifeScript.cs" />
