@@ -10,7 +10,7 @@ public class LifeScript : MonoBehaviour {
 
     public Text DisplayText;
 
-    private static int life = 3;
+    public static int life = 3;
 
     public string newLevel ;
     public string MenuScene="";

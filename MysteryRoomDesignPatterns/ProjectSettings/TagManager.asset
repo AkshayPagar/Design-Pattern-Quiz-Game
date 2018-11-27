@@ -3,12 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - pointlight
-  - Car7
-  - Button
-  - Car1
-  - Car2
+  tags: []
   layers:
   - Default
   - TransparentFX

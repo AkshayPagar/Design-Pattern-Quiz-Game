@@ -8,7 +8,7 @@ public class TimeScript : MonoBehaviour {
 
     public Text timerText;
 
-    private static float timer = 40.0f;
+    public static float timer = 40.0f;
 
     public string MenuScene = "";
     int counter = 0;

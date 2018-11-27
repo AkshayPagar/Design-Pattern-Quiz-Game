@@ -7,7 +7,7 @@ public class ScoreScript : MonoBehaviour {
 
     public Text ScoreText;
 
-    private static int score = 0;
+    public static int score = 0;
 
 
 	// Use this for initialization

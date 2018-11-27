@@ -9,6 +9,8 @@ public class MenuScript : MonoBehaviour {
 
     public string[] menuStrings;
     public string newGameLevel;
+    public GameObject Banner;
+    public Text BannerText;
 
     public Text[] menuText;
     int selectIndex;
@@ -27,6 +29,10 @@ public class MenuScript : MonoBehaviour {
         InitializeText();
         axisDirection = 0;
         axisDirectionPressed = 0;
+        ScoreScript.score = 0;
+        TimeScript.timer = 40.0f;
+        LifeScript.life = 3;
+        HintScript.hints = 1;
     }
 
     void Update()
@@ -112,16 +118,40 @@ public class MenuScript : MonoBehaviour {
 
                 //Continue
                 case 1:
+                    BannerText.text = "Credits: \n Project Team Members: " +
+                        "\n Akshay Pagar" +
+                        "\n Mayur Barge" +
+                        "\n Sneha Thomas" +
+                        "\n Nikita Bairagi" +
+                        "\n\n Special Thanks to: Paul Nguyen";
+                    if (Banner.activeInHierarchy == true)
+                        Banner.SetActive(false);
+                    else
+                        Banner.SetActive(true);
                     break;
 
                 //Options
                 case 2:
-                    Application.Quit();
+                    BannerText.text = "Help:";
+                    if (Banner.activeInHierarchy == true)
+                        Banner.SetActive(false);
+                    else
+                        Banner.SetActive(true);
+                    Debug.Log("Help ");
                     break;
 
                 //Quit
                 case 3:
+                    BannerText.text = "Instructions:";
+                    if (Banner.activeInHierarchy == true)
+                        Banner.SetActive(false);
+                    else
+                        Banner.SetActive(true);
+                    break;
 
+                //Quit
+                case 4:
+                    Application.Quit();
                     break;
             }
         }
