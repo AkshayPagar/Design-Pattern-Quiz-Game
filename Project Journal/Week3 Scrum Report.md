@@ -18,3 +18,27 @@
 
 - We met multiple times last week to update the status and performed peer reviews to identify any code issues.
 
+
+
+## Team Member : Akshay Pagar
+---
+#### What task did I work on / complete ?
+- Implemented Menu Screen with various menu options to start new game, see credits, instructions etc. 
+- Integrated all the screens and implemented flow of the scene. 
+- Implemented Command pattern for the Menu options.
+- Developed screen option butons for answers.
+
+#### What am I planning to work on next ?
+
+- Integration and Testing of the Game.
+- Drawing of UML diagrams for the game. 
+
+#### What task are blocked waiting on another team member ?
+- None
+
+#### XP Core Value: Respect
+
+- All the team members assisted each other when they were stuck.
+- Every project member was appreciated for the work they have completed.
+
+
