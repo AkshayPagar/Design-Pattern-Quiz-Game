@@ -64,6 +64,7 @@
      <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
      <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshSurface.cs" />
      <Compile Include="Assets\RunemarkStudio\DarkFantasyKit [Free]\Readme\Parts\Readme.cs" />
+     <Compile Include="Assets\Scripts\Adaptor.cs" />
      <Compile Include="Assets\Scripts\Button.cs" />
      <Compile Include="Assets\Scripts\Button2.cs" />
      <Compile Include="Assets\Scripts\CanvasButton.cs" />
@@ -74,6 +75,7 @@
      <Compile Include="Assets\Scripts\MenuScript.cs" />
      <Compile Include="Assets\Scripts\OptionSelect.cs" />
      <Compile Include="Assets\Scripts\ScoreScript.cs" />
+     <Compile Include="Assets\Scripts\ShowOrderScript.cs" />
      <Compile Include="Assets\Scripts\SimpleObjectPool.cs" />
      <Compile Include="Assets\Scripts\TimeScript.cs" />
      <Compile Include="Assets\SimpleTraffic\Scripts\Agent.cs" />
@@ -101,16 +103,16 @@
      <None Include="Assets\Laptop\StandardColorMask.shader" />
      <None Include="Assets\MusicPlayer\license.txt" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>D:/CMPE202/Project/fa18-202-brainy-amigos/fa18-202-brainy-amigos/MysteryRoomDesignPatterns/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>D:/CMPE202/Project/New folder/fa18-202-brainy-amigos/MysteryRoomDesignPatterns/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/CMPE202/Project/fa18-202-brainy-amigos/fa18-202-brainy-amigos/MysteryRoomDesignPatterns/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>D:/CMPE202/Project/New folder/fa18-202-brainy-amigos/MysteryRoomDesignPatterns/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>D:/CMPE202/Project/fa18-202-brainy-amigos/fa18-202-brainy-amigos/MysteryRoomDesignPatterns/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>D:/CMPE202/Project/New folder/fa18-202-brainy-amigos/MysteryRoomDesignPatterns/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/CMPE202/Project/fa18-202-brainy-amigos/fa18-202-brainy-amigos/MysteryRoomDesignPatterns/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>D:/CMPE202/Project/New folder/fa18-202-brainy-amigos/MysteryRoomDesignPatterns/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
