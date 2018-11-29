@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class Adaptor : MonoBehaviour {
     public GameObject plug;
+    public GameObject chargingSymbol;
     // Use this for initialization
     void Start () {
-		
+        chargingSymbol.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -23,6 +24,9 @@ public class Adaptor : MonoBehaviour {
                 if (hit1.transform.name == "PlugA")
                 {
                     Debug.Log("This is button");
+                    Vector3 temp = new Vector3(5.8f, 1.51f, -2.53f);
+                    plug.transform.position = temp;
+                    chargingSymbol.SetActive(true);
                 }
             }
         }
