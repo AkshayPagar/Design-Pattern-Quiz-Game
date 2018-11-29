@@ -2435,17 +2435,6 @@ MonoBehaviour:
           m_StringArgument: RightClick
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1839907997}
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: RightClick
-          m_BoolArgument: 1
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &679012253
@@ -4871,10 +4860,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1359860708}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47d09f14dd78d9f46b8898c916a2e559, type: 3}
+  m_Script: {fileID: 11500000, guid: 0054b993d2df91e46a9e249838f147f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreText: {fileID: 1839907996}
 --- !u!114 &1359860710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6533,7 +6521,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1839907995}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47d09f14dd78d9f46b8898c916a2e559, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e714a212174a6a458f492a72dd2969c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreText: {fileID: 1839907996}

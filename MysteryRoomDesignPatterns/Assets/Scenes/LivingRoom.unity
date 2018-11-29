@@ -1316,7 +1316,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 872408701}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47d09f14dd78d9f46b8898c916a2e559, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e714a212174a6a458f492a72dd2969c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreText: {fileID: 872408703}
@@ -1552,17 +1552,6 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1097153744}
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: RightClick
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 872408705}
         m_MethodName: SendMessage
         m_Mode: 5
         m_Arguments:
@@ -2362,7 +2351,7 @@ GameObject:
   - component: {fileID: 1677847097}
   - component: {fileID: 1677847096}
   - component: {fileID: 1677847100}
-  - component: {fileID: 1677847101}
+  - component: {fileID: 1677847095}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -2370,6 +2359,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1677847095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1677847094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0054b993d2df91e46a9e249838f147f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1677847096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2469,18 +2469,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerText: {fileID: 1266883787}
   MenuScene: EndScene
---- !u!114 &1677847101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1677847094}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47d09f14dd78d9f46b8898c916a2e559, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ScoreText: {fileID: 872408703}
 --- !u!1001 &1678664437
 Prefab:
   m_ObjectHideFlags: 0

@@ -10,7 +10,8 @@ public class EndScript : MonoBehaviour {
     public static int score;
     // Use this for initialization
     void Start () {
-        score = ScoreScript.score;
+        //score = ScoreScript.score;
+        score=PlayerPrefs.GetInt("score", 0);
     }
 	
 	// Update is called once per frame

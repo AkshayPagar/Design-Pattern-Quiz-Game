@@ -512,6 +512,7 @@ public class HajiyevMusicManager : MonoBehaviour {
             if (_instance != this) {
                 _instance = this;
                 DontDestroyOnLoad(this.gameObject);
+               // DontDestroyChildOnLoad(this.gameObject);
             }
         } else {
             _instance = this;

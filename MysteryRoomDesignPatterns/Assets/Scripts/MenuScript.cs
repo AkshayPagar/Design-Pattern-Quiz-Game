@@ -29,7 +29,7 @@ public class MenuScript : MonoBehaviour {
         InitializeText();
         axisDirection = 0;
         axisDirectionPressed = 0;
-        ScoreScript.score = 0;
+        PlayerPrefs.SetInt("score", 0);
         TimeScript.timer = 40.0f;
         LifeScript.life = 3;
         HintScript.hints = 1;
@@ -132,7 +132,7 @@ public class MenuScript : MonoBehaviour {
 
                 //Options
                 case 2:
-                    BannerText.text = "Help:";
+                    BannerText.text = "Help: ";
                     if (Banner.activeInHierarchy == true)
                         Banner.SetActive(false);
                     else
