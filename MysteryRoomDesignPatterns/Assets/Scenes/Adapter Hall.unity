@@ -1634,7 +1634,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1049572411}
   m_LocalRotation: {x: 0.082565054, y: -0, z: -0, w: 0.9965857}
-  m_LocalPosition: {x: -0.783, y: 5.67, z: -13.48}
+  m_LocalPosition: {x: -0.783, y: 5.66, z: -13.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2232,7 +2232,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Composite Pattern
+  m_Text: Adapter Pattern
 --- !u!222 &1444401618
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2562,7 +2562,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LifeText: {fileID: 1784259719}
   DisplayText: {fileID: 2013433695}
-  newLevel: MusicPlayer
+  newLevel: Traffic
   MenuScene: EndScene
 --- !u!114 &1784259719
 MonoBehaviour:

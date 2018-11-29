@@ -15,7 +15,7 @@ public class PlayerResponseManager : MonoBehaviour, IPlayerResponseSubject
                                                 {"Traffic","AButton"},
                                                 {"MusicPlayer", "AButton"},
                                                 {"CarHeadlights","AButton"},
-                                                {"Hall","AButton"}
+                                                {"Adapter Hall","AButton"}
                                             };
 
 
@@ -28,7 +28,7 @@ public class PlayerResponseManager : MonoBehaviour, IPlayerResponseSubject
                                                 {"Traffic",false},
                                                 {"MusicPlayer", false},
                                                 {"CarHeadlights",false},
-                                                {"Hall",false}
+                                                {"Adapter Hall",false}
                                             };
 
     public void attach(IPlayerResponseObserver obs)

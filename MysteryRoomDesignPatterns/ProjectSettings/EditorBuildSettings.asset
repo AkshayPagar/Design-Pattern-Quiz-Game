@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EndScene.unity
     guid: 5696d0ce04c963b4c8b521983fcb3f57
+  - enabled: 1
+    path: Assets/Scenes/Adapter Hall.unity
+    guid: 7fb961857c5a7054d83580c9610fabf4
   m_configObjects: {}
