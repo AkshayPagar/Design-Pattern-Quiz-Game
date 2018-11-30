@@ -1451,6 +1451,17 @@ MonoBehaviour:
           m_StringArgument: RightClick
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1974195028}
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: '"Good Job!!!"'
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &638902828
@@ -2210,7 +2221,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1031781724}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0054b993d2df91e46a9e249838f147f6, type: 3}
+  m_Script: {fileID: 11500000, guid: 893f0537eb4123842893828c042f9013, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1031781726
@@ -4189,11 +4200,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2147151710}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e714a212174a6a458f492a72dd2969c, type: 3}
+  m_Script: {fileID: 11500000, guid: 752c03c6e62a9bf40bdc844a9adcfdbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreText: {fileID: 2147151711}
-  DisplayText: {fileID: 1974195028}
 --- !u!222 &2147151713
 CanvasRenderer:
   m_ObjectHideFlags: 0

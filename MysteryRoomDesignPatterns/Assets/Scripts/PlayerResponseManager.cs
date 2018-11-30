@@ -2,9 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.EventSystems;
-public class PlayerResponseManager : MonoBehaviour, IPlayerResponseSubject
+
+public class PlayerResponseManager : IPlayerResponseSubject
 {
+
+    private static PlayerResponseManager playerResponseManager;
+
+    private static object obj = new object();
+    
+    private PlayerResponseManager()
+    {
+    }
+
+    
     private List<IPlayerResponseObserver> observers = new List<IPlayerResponseObserver>(); 
     private Scene currentScene;
     private IDictionary<string, string> answerKeys = new Dictionary<string, string>()
@@ -31,10 +41,17 @@ public class PlayerResponseManager : MonoBehaviour, IPlayerResponseSubject
                                                 {"Adapter Hall",false}
                                             };
 
-    // Use this for initialization
-    void Start()
+    public static PlayerResponseManager GetInstance()
     {
-       
+        lock (obj)
+        {
+            if (playerResponseManager == null)
+            {
+                playerResponseManager = new PlayerResponseManager();
+            }
+        }
+
+        return playerResponseManager;
     }
 
     public void attach(IPlayerResponseObserver obs)
@@ -50,34 +67,34 @@ public class PlayerResponseManager : MonoBehaviour, IPlayerResponseSubject
     }
 
     public void notifyObservers()
+    { 
+            foreach (var obs in observers)
+               obs.updateStatus(); 
+        }
+
+    public void checkAnswerKey(GameObject button)
     {
         currentScene = SceneManager.GetActiveScene();
         if (!updateSceneKeys[currentScene.name])
         {
             updateSceneKeys[currentScene.name] = true;
-            foreach (var obs in observers)
-            { obs.updateStatus(); Debug.Log("Calling Observer"); }
-
-
-        }
-    }
-
-
-
-    
-
-    // Update is called once per frame
-    void Update()
-    {
-        currentScene = SceneManager.GetActiveScene();
-
-        if (EventSystem.current.currentSelectedGameObject != null)
-        {
-            if (EventSystem.current.currentSelectedGameObject.name == answerKeys[currentScene.name])
-            {
+            if (button.name == answerKeys[currentScene.name])
                 notifyObservers();
-            }
         }
+    }
+
+
+    public void UpdateSceneKeys()
+    {
+        updateSceneKeys["LivingRoom"] = false;
+        updateSceneKeys["Kitchen"] = false;
+        updateSceneKeys["Traffic"] = false;
+        updateSceneKeys["MusicPlayer"] = false;
+        updateSceneKeys["CarHeadlights"] = false;
+        updateSceneKeys["Bedroom"] = false;
+        updateSceneKeys["Adapter Hall"] = false;
+
 
     }
+
 }

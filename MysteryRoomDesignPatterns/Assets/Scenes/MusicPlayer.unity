@@ -5092,7 +5092,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1359860708}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0054b993d2df91e46a9e249838f147f6, type: 3}
+  m_Script: {fileID: 11500000, guid: 893f0537eb4123842893828c042f9013, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1359860710
@@ -6753,11 +6753,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1839907995}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e714a212174a6a458f492a72dd2969c, type: 3}
+  m_Script: {fileID: 11500000, guid: 752c03c6e62a9bf40bdc844a9adcfdbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreText: {fileID: 1839907996}
-  DisplayText: {fileID: 937920471}
 --- !u!222 &1839907998
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -29,7 +29,8 @@ public class MenuScript : MonoBehaviour
     IReceiver sHelp;
     IReceiver sCredits;
     IReceiver sInstr;
-
+    ScoreBoardManager scoreBoardManager;
+    PlayerResponseManager playerResponseManager;
     public Text[] menuText;
     int selectIndex;
     int prevIndex;
@@ -41,12 +42,16 @@ public class MenuScript : MonoBehaviour
 
     void Start()
     {
+        scoreBoardManager = ScoreBoardManager.GetInstance();
+        scoreBoardManager.setScore(0);
+        playerResponseManager = PlayerResponseManager.GetInstance();
+        playerResponseManager.UpdateSceneKeys();
+        playerResponseManager.attach(scoreBoardManager);
         initializeMenu();
         initializeCommand();
         initializeReceiver();
         setReceiver();
         setCommand();
-        PlayerPrefs.SetInt("score", 0);
         transparentColor = new Color(1f, 1f, 1f, 0.5f);
         selectIndex = 0;
         prevIndex = selectIndex;

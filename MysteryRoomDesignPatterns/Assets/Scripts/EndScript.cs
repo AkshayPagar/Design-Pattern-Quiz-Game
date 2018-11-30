@@ -8,10 +8,15 @@ public class EndScript : MonoBehaviour {
     public string newLevel;
     public Text ScoreText;
     public static int score;
+    ScoreBoardManager scoreBoardManager;
+
+    PlayerResponseManager playerResponseManager;
     // Use this for initialization
     void Start () {
-        //score = ScoreScript.score;
-        score=PlayerPrefs.GetInt("score", 0);
+        scoreBoardManager = ScoreBoardManager.GetInstance();
+
+         playerResponseManager =PlayerResponseManager.GetInstance();
+        score = scoreBoardManager.getScore();
     }
 	
 	// Update is called once per frame
@@ -27,6 +32,10 @@ public class EndScript : MonoBehaviour {
 
 	}
 
+    private void OnDestroy()
+    {
+        playerResponseManager.detach(scoreBoardManager);
+    }
     void GoHome()
     {
         SceneManager.LoadScene(newLevel);
