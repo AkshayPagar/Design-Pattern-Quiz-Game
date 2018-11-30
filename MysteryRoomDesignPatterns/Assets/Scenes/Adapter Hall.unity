@@ -524,7 +524,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Strategy Pattern
+  m_Text: Abstract Factory
 --- !u!222 &284135340
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -666,7 +666,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Hint: Command Pattern'
+  m_Text: 'Hint: Pattern which creates a middle layer class that translates application
+    calls to the form that the existing class understands.'
 --- !u!222 &346082601
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1708,7 +1709,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mediator Pattern
+  m_Text: Factory Pattern
 --- !u!222 &1083010920
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3249,7 +3250,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 211.8, y: -130.95}
+  m_AnchoredPosition: {x: -208.80003, y: -130.95}
   m_SizeDelta: {x: 355, y: 33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1995749287
@@ -3508,7 +3509,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -208.7, y: -130.95}
+  m_AnchoredPosition: {x: 211.79999, y: -130.95}
   m_SizeDelta: {x: 355, y: 33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2088474377

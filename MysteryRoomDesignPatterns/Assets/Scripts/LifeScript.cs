@@ -31,7 +31,7 @@ public class LifeScript : MonoBehaviour {
         {
             DisplayText.text = "GAME OVER!!!";
             counter += 1;
-            if(counter >= 200)
+            if(counter >=200)
             SceneManager.LoadScene(MenuScene);
         }
 
@@ -45,6 +45,7 @@ public class LifeScript : MonoBehaviour {
 
     void RightClick()
     {
+        System.Threading.Thread.Sleep(700);
         SceneManager.LoadScene(newLevel);
     }
 }

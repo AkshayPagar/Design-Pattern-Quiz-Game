@@ -54,7 +54,7 @@ public class MenuScript : MonoBehaviour
         axisDirection = 0;
         axisDirectionPressed = 0;
         PlayerPrefs.SetInt("score", 0);
-        TimeScript.timer = 40.0f;
+        TimeScript.timer = 100.0f;
         LifeScript.life = 3;
         HintScript.hints = 1;
     }

@@ -506,7 +506,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Chain of Responsibility Pattern
+  m_Text: State Pattern
 --- !u!222 &45901926
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -548,7 +548,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 211.8, y: -130.95}
+  m_AnchoredPosition: {x: -208.70001, y: -95.1}
   m_SizeDelta: {x: 355, y: 33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &156202868
@@ -1388,7 +1388,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -208.80003, y: -95.1}
+  m_AnchoredPosition: {x: 211.8, y: -130.95}
   m_SizeDelta: {x: 355, y: 33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &850204551
@@ -1877,7 +1877,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mediator Pattern
+  m_Text: Prototype Pattern
 --- !u!222 &1056627724
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2162,7 +2162,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Hint: Command Pattern'
+  m_Text: 'Hint: This pattern implements a tree-like structure that has simple elements
+    and containers.'
 --- !u!222 &1407016230
 CanvasRenderer:
   m_ObjectHideFlags: 0

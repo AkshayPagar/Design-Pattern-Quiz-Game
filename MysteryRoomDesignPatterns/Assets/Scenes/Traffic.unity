@@ -949,7 +949,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mediator Pattern
+  m_Text: Strategy Pattern
 --- !u!222 &197132699
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3688,7 +3688,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Strategy Pattern
+  m_Text: Iterator Pattern
 --- !u!222 &1082070804
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5349,7 +5349,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Hint: Command Pattern'
+  m_Text: 'Hint: Pattern where object behaves differently depending on its current
+    state.'
 --- !u!222 &1712381619
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6515,7 +6516,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Chain of Responsibility Pattern
+  m_Text: Composite Pattern
 --- !u!222 &2070711869
 CanvasRenderer:
   m_ObjectHideFlags: 0

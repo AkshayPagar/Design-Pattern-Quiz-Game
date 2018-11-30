@@ -644,7 +644,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Chain of Responsibility Pattern
+  m_Text: Facade Pattern
 --- !u!222 &405832935
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -804,7 +804,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Hint: Command Pattern'
+  m_Text: 'Hint: Changes to the state of one object may require changing other objects.'
 --- !u!222 &417819711
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -964,7 +964,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mediator Pattern
+  m_Text: Singleton Pattern
 --- !u!222 &431683933
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2720,7 +2720,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Strategy Pattern
+  m_Text: Decorator Pattern
 --- !u!222 &1538018832
 CanvasRenderer:
   m_ObjectHideFlags: 0

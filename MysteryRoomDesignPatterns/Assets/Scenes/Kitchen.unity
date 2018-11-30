@@ -1581,7 +1581,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Strategy Pattern
+  m_Text: Command Pattern
 --- !u!222 &786963611
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1898,7 +1898,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Chain of Responsibility Pattern
+  m_Text: Observer Pattern
 --- !u!222 &898282036
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3318,7 +3318,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mediator Pattern
+  m_Text: Iterator Pattern
 --- !u!222 &1444295922
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3905,7 +3905,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Hint: Command Pattern'
+  m_Text: 'Hint: Pattern forces the containers to work with all child elements through
+    the common interface.'
 --- !u!222 &1737433736
 CanvasRenderer:
   m_ObjectHideFlags: 0

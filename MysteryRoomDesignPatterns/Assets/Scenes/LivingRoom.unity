@@ -3126,7 +3126,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Hint: Command Pattern'
+  m_Text: 'Hint:  Encapsulating requests into their very own objects.'
 --- !u!222 &1921301718
 CanvasRenderer:
   m_ObjectHideFlags: 0

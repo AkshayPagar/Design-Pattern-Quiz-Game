@@ -1674,7 +1674,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mediator Pattern
+  m_Text: Factory Method
 --- !u!222 &553012827
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3821,7 +3821,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Strategy Pattern
+  m_Text: Observer Pattern
 --- !u!222 &863164424
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6686,7 +6686,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Chain of Responsibility Pattern
+  m_Text: Bridge Pattern
 --- !u!222 &1815723498
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7640,7 +7640,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Hint: Command Pattern'
+  m_Text: 'Hint: Pattern that allows an object to alter its behavior when its internal
+    state changes. '
 --- !u!222 &2101774585
 CanvasRenderer:
   m_ObjectHideFlags: 0
