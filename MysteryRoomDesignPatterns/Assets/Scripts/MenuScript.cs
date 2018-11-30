@@ -5,12 +5,30 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
-public class MenuScript : MonoBehaviour {
+public class MenuScript : MonoBehaviour
+{
+
+    newGameReceiver Object;
 
     public string[] menuStrings;
     public string newGameLevel;
     public GameObject Banner;
     public Text BannerText;
+    Menu newGame;
+    Menu Credits;
+    Menu Help;
+    Menu Instructions;
+    Menu quit;
+    ICommand startNewGame;
+    ICommand quitGame;
+    ICommand showHelp;
+    ICommand showCredits;
+    ICommand showInstr;
+    IReceiver nGame;
+    IReceiver qGame;
+    IReceiver sHelp;
+    IReceiver sCredits;
+    IReceiver sInstr;
 
     public Text[] menuText;
     int selectIndex;
@@ -23,6 +41,12 @@ public class MenuScript : MonoBehaviour {
 
     void Start()
     {
+        initializeMenu();
+        initializeCommand();
+        initializeReceiver();
+        setReceiver();
+        setCommand();
+        PlayerPrefs.SetInt("score", 0);
         transparentColor = new Color(1f, 1f, 1f, 0.5f);
         selectIndex = 0;
         prevIndex = selectIndex;
@@ -41,6 +65,52 @@ public class MenuScript : MonoBehaviour {
         CheckForArrowKeys();
         CheckForConfirmButton();
         ResetCheckAxis();
+    }
+
+    void initializeMenu()
+    {
+        newGame = new Menu();
+        Credits = new Menu();
+        Help = new Menu();
+        Instructions = new Menu();
+        quit = new Menu();
+    }
+
+    void initializeCommand()
+    {
+        startNewGame = new ConcreteCommand();
+        quitGame = new ConcreteCommand();
+        showHelp = new ConcreteCommand();
+        showCredits = new ConcreteCommand();
+        showInstr = new ConcreteCommand();
+    }
+
+    void initializeReceiver()
+    {
+        nGame = new newGameReceiver();
+        qGame = new quitGameReceiver();
+        sHelp = new showHelpReceiver();
+        sCredits = new showCreditsReceiver();
+        sInstr = new showInstrReceiver();
+
+    }
+
+    void setCommand()
+    {
+        newGame.setCommand(startNewGame);
+        quit.setCommand(quitGame);
+        Help.setCommand(showHelp);
+        Credits.setCommand(showCredits);
+        Instructions.setCommand(showInstr);
+    }
+
+    void setReceiver()
+    {
+        startNewGame.setReceiver(nGame);
+        quitGame.setReceiver(qGame);
+        showHelp.setReceiver(sHelp);
+        showCredits.setReceiver(sCredits);
+        showInstr.setReceiver(sInstr);
     }
 
     void CheckAxis()
@@ -113,76 +183,36 @@ public class MenuScript : MonoBehaviour {
             {
                 //New Game
                 case 0:
-                    SceneManager.LoadScene(newGameLevel);
+                    //Object =newGameReceiverGO.GetComponent<newGameReceiver>();
+                    newGame.invoke();
                     break;
 
                 //Continue
                 case 1:
-                    BannerText.text = "Credits: \n Project Team Members: " +
-                        "\n Akshay Pagar" +
-                        "\n Mayur Barge" +
-                        "\n Sneha Thomas" +
-                        "\n Nikita Bairagi" +
-                        "\n\n Special Thanks to: Paul Nguyen";
-                    if (Banner.activeInHierarchy == true)
-                        Banner.SetActive(false);
-                    else
-                        Banner.SetActive(true);
+                    Credits.invoke();
                     break;
 
                 //Options
                 case 2:
-                    BannerText.text = "                                                         Design Pattern Catalog " + 
-                    "\n	  Factory Method                              :-  subclass of object that is instantiated	" +
-                    "\n	  Singleton                                        :-  the sole instance of a class	" +
-                    "\n	  Adapter                                          :-  interface to an object	" +
-                    "\n	  Composite                                      :-  structure and composition of an object	" +
-                    "\n	  Decorator                                      :-  responsibilities of an object without subclassing	" +
-                    "\n	  Proxy                                             :-  how an object is accessed; its location	" +
-                    "\n	  Chain of Responsibility                 :-  object that can fulfill a request	" +
-                    "\n	  Command                                      :-  when and how a request is fulfilled	" +
-                    "\n	  Iterator                                          :-  how an aggregate's elements are accessed,traversed	" +
-                    "\n	  Observer                                       :-  number of objects that depend on another object; how the dependent objects stay up to date	" +
-                    "\n	  State                                              :-  states of an object	" +
-                    "\n	  Strategy                                        :-  an algorithm	";
-                    BannerText.alignment = TextAnchor.UpperLeft;
-                    BannerText.fontSize = 15;
-                    if (Banner.activeInHierarchy == true)
-                        Banner.SetActive(false);
-                    else
-                        Banner.SetActive(true);
-                    Debug.Log("Help ");
+                    Help.invoke();
                     break;
 
                 //Quit
                 case 3:
-                    BannerText.text = "                                                                     Instructions:" +
-                    " \n \u2022Players will be presented with 7 scenes which depicts real-world examples of Design Patterns." +
-                    " \n \u2022Each scene will have 4 design pattern options to choose from." +
-                    " \n \u2022The game objects in the scenes may be clicked for a change in their behaviour." +
-                    " \n \u2022The duration of the entire game is 40 seconds." +
-                    " \n \u2022Every correct answer increases the score by 5 points." +
-                    " \n \u20223 lives will be provided in the beginning of the game and every wrong answer reduces the lives by 1." +
-                    " \n \u2022The game ends if the lives gets exhausted, the time is up, or all the 7 questions are attempted." +
-                    " \n \u2022Player can use the hint only once in the whole game.";     
-                    BannerText.alignment = TextAnchor.UpperLeft;
-                    BannerText.fontSize = 20;
-                    if (Banner.activeInHierarchy == true)
-                        Banner.SetActive(false);
-                    else
-                        Banner.SetActive(true);
+                    Instructions.invoke();
                     break;
 
                 //Quit
                 case 4:
-                    Application.Quit();
+                    quit.invoke();
                     break;
             }
         }
     }
 
 
-    public void StartGame() {
+    public void StartGame()
+    {
         SceneManager.LoadScene("Game");
     }
 
