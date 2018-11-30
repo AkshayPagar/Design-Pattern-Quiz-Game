@@ -1441,17 +1441,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1974195028}
-        m_MethodName: set_text
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Good JOB!!!
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1443809111}
         m_MethodName: SendMessage
         m_Mode: 5
@@ -4201,6 +4190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreText: {fileID: 2147151711}
+  DisplayText: {fileID: 1974195028}
 --- !u!222 &2147151713
 CanvasRenderer:
   m_ObjectHideFlags: 0

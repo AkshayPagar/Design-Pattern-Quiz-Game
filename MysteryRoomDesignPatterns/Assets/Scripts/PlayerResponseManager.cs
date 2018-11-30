@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 public class PlayerResponseManager : MonoBehaviour, IPlayerResponseSubject
 {
-    private List<IPlayerResponseObserver> observers = new List<IPlayerResponseObserver>();
+    private List<IPlayerResponseObserver> observers = new List<IPlayerResponseObserver>(); 
     private Scene currentScene;
     private IDictionary<string, string> answerKeys = new Dictionary<string, string>()
                                             {
@@ -30,6 +30,12 @@ public class PlayerResponseManager : MonoBehaviour, IPlayerResponseSubject
                                                 {"CarHeadlights",false},
                                                 {"Adapter Hall",false}
                                             };
+
+    // Use this for initialization
+    void Start()
+    {
+       
+    }
 
     public void attach(IPlayerResponseObserver obs)
     {
@@ -58,11 +64,7 @@ public class PlayerResponseManager : MonoBehaviour, IPlayerResponseSubject
 
 
 
-    // Use this for initialization
-    void Start()
-    {
-
-    }
+    
 
     // Update is called once per frame
     void Update()

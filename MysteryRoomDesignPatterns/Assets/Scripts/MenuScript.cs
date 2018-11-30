@@ -132,7 +132,21 @@ public class MenuScript : MonoBehaviour {
 
                 //Options
                 case 2:
-                    BannerText.text = "Help: ";
+                    BannerText.text = "                                                         Design Pattern Catalog " + 
+                    "\n	  Factory Method                              :-  subclass of object that is instantiated	" +
+                    "\n	  Singleton                                        :-  the sole instance of a class	" +
+                    "\n	  Adapter                                          :-  interface to an object	" +
+                    "\n	  Composite                                      :-  structure and composition of an object	" +
+                    "\n	  Decorator                                      :-  responsibilities of an object without subclassing	" +
+                    "\n	  Proxy                                             :-  how an object is accessed; its location	" +
+                    "\n	  Chain of Responsibility                 :-  object that can fulfill a request	" +
+                    "\n	  Command                                      :-  when and how a request is fulfilled	" +
+                    "\n	  Iterator                                          :-  how an aggregate's elements are accessed,traversed	" +
+                    "\n	  Observer                                       :-  number of objects that depend on another object; how the dependent objects stay up to date	" +
+                    "\n	  State                                              :-  states of an object	" +
+                    "\n	  Strategy                                        :-  an algorithm	";
+                    BannerText.alignment = TextAnchor.UpperLeft;
+                    BannerText.fontSize = 15;
                     if (Banner.activeInHierarchy == true)
                         Banner.SetActive(false);
                     else
@@ -142,7 +156,9 @@ public class MenuScript : MonoBehaviour {
 
                 //Quit
                 case 3:
-                    BannerText.text = "Instructions:";
+                    BannerText.text = "Instructions:";      
+                    BannerText.alignment = TextAnchor.UpperLeft;
+                    BannerText.fontSize = 20;
                     if (Banner.activeInHierarchy == true)
                         Banner.SetActive(false);
                     else

@@ -7,7 +7,8 @@ public class ScoreBoardManager : MonoBehaviour, IPlayerResponseObserver
 {
 
     public Text ScoreText;
-    public static int score = 0;
+    public Text DisplayText;
+    private  int score = 0;
 
 
     // Use this for initialization
@@ -28,13 +29,19 @@ public class ScoreBoardManager : MonoBehaviour, IPlayerResponseObserver
 
 
     }
+     void OnDestroy()
+    {
+        foreach (var subject in FindObjectsOfType<PlayerResponseManager>())
+            subject.detach(this);
+    }
 
     public void updateStatus()
     {
         
         Debug.Log("Observer called");
-        score = score + 5;
+        score = score + 5; PlayerPrefs.SetInt("score", score);
         ScoreText.text = "Score : " + score;
-        PlayerPrefs.SetInt("score", score);
+        DisplayText.text = "Good Job!!!";
+        
     }
 }
