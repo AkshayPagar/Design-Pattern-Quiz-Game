@@ -156,7 +156,15 @@ public class MenuScript : MonoBehaviour {
 
                 //Quit
                 case 3:
-                    BannerText.text = "Instructions:";      
+                    BannerText.text = "                                                                     Instructions:" +
+                    " \n \u2022Players will be presented with 7 scenes which depicts real-world examples of Design Patterns." +
+                    " \n \u2022Each scene will have 4 design pattern options to choose from." +
+                    " \n \u2022The game objects in the scenes may be clicked for a change in their behaviour." +
+                    " \n \u2022The duration of the entire game is 40 seconds." +
+                    " \n \u2022Every correct answer increases the score by 5 points." +
+                    " \n \u20223 lives will be provided in the beginning of the game and every wrong answer reduces the lives by 1." +
+                    " \n \u2022The game ends if the lives gets exhausted, the time is up, or all the 7 questions are attempted." +
+                    " \n \u2022Player can use the hint only once in the whole game.";     
                     BannerText.alignment = TextAnchor.UpperLeft;
                     BannerText.fontSize = 20;
                     if (Banner.activeInHierarchy == true)
