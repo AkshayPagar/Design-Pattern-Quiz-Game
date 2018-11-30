@@ -62,4 +62,17 @@
 
 - We restricted our conversation to whatever was planned as there were new ideas popping up ;)
 
+## Team Member : Nikita Bairagi
+
+### What task did I work on / complete?
+- Completed integration of pattern scene , answer buttons, score and timer.
+
+### What am I planning to work on next ?
+- Implementation of composite pattern in the code.
+
+### what task are blocked waiting on another team member?
+- None
+
+### XP Core Value: Communication
+- We communicated face to face multiple times in the week. And shared knowledge about implementing patterns in the code.
 
