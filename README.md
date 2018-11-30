@@ -22,4 +22,6 @@ Project Journal available at following locations for **Mystery Room Design Patte
 
 [Week3 Scrum Report](Project%20Journal/Week3%20Scrum%20Report.md)
 
+[Week4 Scrum Report](Project%20Journal/Week4%20Scrum%20Report.md)
+
 
