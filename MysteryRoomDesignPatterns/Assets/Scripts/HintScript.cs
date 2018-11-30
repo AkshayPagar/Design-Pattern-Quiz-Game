@@ -3,16 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HintScript : MonoBehaviour {
+public class HintScript : MonoBehaviour, IDisplayComponent {
     public Text HintButton;
     public GameObject panel;
     public Text Hint;
     HintManager hintManager;
     void Start () {
         Debug.Log("Init");
+        
+    }
+
+    public void display()
+    {
         hintManager = HintManager.GetInstance();
         panel.SetActive(false);
         Hint.enabled = false;
+
     }
 
     // Update is called once per frame
@@ -38,6 +44,11 @@ public class HintScript : MonoBehaviour {
             Hint.enabled = false;
         }
         hintManager.Request();
+    }
+
+    
+    public void addSubComponent(IDisplayComponent c)
+    {
     }
 }
 

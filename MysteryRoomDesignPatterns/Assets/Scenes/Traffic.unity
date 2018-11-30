@@ -1886,6 +1886,7 @@ GameObject:
   - component: {fileID: 427885801}
   - component: {fileID: 427885800}
   - component: {fileID: 427885799}
+  - component: {fileID: 427885802}
   m_Layer: 0
   m_Name: TimerText
   m_TagString: Untagged
@@ -1951,6 +1952,19 @@ RectTransform:
   m_AnchoredPosition: {x: -312, y: 145}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &427885802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 427885798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecea715a9afa9dc4aa30bcc0a69bfdea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 427885799}
+  MenuScene: EndScene
 --- !u!1001 &433275212
 Prefab:
   m_ObjectHideFlags: 0
@@ -4948,8 +4962,8 @@ GameObject:
   - component: {fileID: 1678827302}
   - component: {fileID: 1678827301}
   - component: {fileID: 1678827300}
-  - component: {fileID: 1678827299}
   - component: {fileID: 1678827298}
+  - component: {fileID: 1678827299}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -4976,11 +4990,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1678827297}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecea715a9afa9dc4aa30bcc0a69bfdea, type: 3}
+  m_Script: {fileID: 11500000, guid: 3cb312ba9c7a07844a9bac2e97af1d73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerText: {fileID: 427885799}
-  MenuScene: EndScene
 --- !u!114 &1678827300
 MonoBehaviour:
   m_ObjectHideFlags: 0

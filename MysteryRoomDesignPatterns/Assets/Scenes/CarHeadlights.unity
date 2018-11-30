@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.49641287, b: 0.5748173, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -888,6 +888,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e33c734676d56ca49a5beaa56645a058, type: 3}
+      propertyPath: m_TagString
+      value: Car2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e33c734676d56ca49a5beaa56645a058, type: 3}
   m_IsPrefabAsset: 0
@@ -1682,6 +1686,7 @@ GameObject:
   - component: {fileID: 784738764}
   - component: {fileID: 784738763}
   - component: {fileID: 784738762}
+  - component: {fileID: 784738765}
   m_Layer: 0
   m_Name: TimerText
   m_TagString: Untagged
@@ -1747,6 +1752,19 @@ RectTransform:
   m_AnchoredPosition: {x: -312, y: 145}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &784738765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 784738761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecea715a9afa9dc4aa30bcc0a69bfdea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 784738762}
+  MenuScene: EndScene
 --- !u!1 &802693056
 GameObject:
   m_ObjectHideFlags: 0
@@ -2204,8 +2222,8 @@ GameObject:
   - component: {fileID: 1031781729}
   - component: {fileID: 1031781728}
   - component: {fileID: 1031781727}
-  - component: {fileID: 1031781726}
   - component: {fileID: 1031781725}
+  - component: {fileID: 1031781726}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -2232,11 +2250,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1031781724}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecea715a9afa9dc4aa30bcc0a69bfdea, type: 3}
+  m_Script: {fileID: 11500000, guid: 3cb312ba9c7a07844a9bac2e97af1d73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerText: {fileID: 784738762}
-  MenuScene: EndScene
 --- !u!114 &1031781727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2652,6 +2668,10 @@ Prefab:
       value: -0.18900001
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6aefcc9737d9afc42955a9700d11dbc1, type: 3}
+      propertyPath: m_TagString
+      value: Car7
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 6aefcc9737d9afc42955a9700d11dbc1, type: 3}
       propertyPath: m_TagString
       value: Car7
       objectReference: {fileID: 0}
@@ -3192,6 +3212,10 @@ Prefab:
     - target: {fileID: 11100000, guid: 950252022d9c3f249949807e663ee15a, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 950252022d9c3f249949807e663ee15a, type: 3}
+      propertyPath: m_TagString
+      value: Car1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 950252022d9c3f249949807e663ee15a, type: 3}

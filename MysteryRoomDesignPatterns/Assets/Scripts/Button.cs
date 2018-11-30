@@ -2,18 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Button : MonoBehaviour {
+public class Button : MonoBehaviour, IDisplayComponent {
 
     public GameObject Light;
 
 	// Use this for initialization
 	void Start () {
 
+        
+    }
+
+    public void display()
+    {
         Light.SetActive(false);
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update () {
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -36,4 +41,8 @@ public class Button : MonoBehaviour {
             }
         }
 	}
+
+   
+    public void addSubComponent(IDisplayComponent c) {
+    }
 }

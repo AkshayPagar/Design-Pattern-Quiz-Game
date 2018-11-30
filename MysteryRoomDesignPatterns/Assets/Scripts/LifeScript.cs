@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class LifeScript : MonoBehaviour {
+public class LifeScript : MonoBehaviour, IDisplayComponent {
 
     public Text LifeText;
 
@@ -21,9 +21,12 @@ public class LifeScript : MonoBehaviour {
     {
 		
 	}
-	
-	// Update is called once per frame
-	void Update ()
+    public void display()
+    {
+        LifeText.text = "Life : " + life;
+    }
+    // Update is called once per frame
+    void Update ()
     {
          LifeText.text = "Life : " + life;
 
@@ -47,5 +50,10 @@ public class LifeScript : MonoBehaviour {
     {
         System.Threading.Thread.Sleep(700);
         SceneManager.LoadScene(newLevel);
+    }
+
+   
+    public void addSubComponent(IDisplayComponent c)
+    {
     }
 }

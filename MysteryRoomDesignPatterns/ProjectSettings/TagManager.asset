@@ -3,7 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PanelText
+  - Button
+  - pointlight
+  - Car7
+  - Car2
+  - Car1
+  - Unit
+  - Gib
+  - RoadConnection
+  - WaitZone
+  - TrainJunction
+  - Timer
   layers:
   - Default
   - TransparentFX

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class TimeScript : MonoBehaviour {
+public class TimeScript : MonoBehaviour, IDisplayComponent {
 
     public Text timerText;
 
@@ -17,11 +17,16 @@ public class TimeScript : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
-        timerText.text = "Time: " + timer.ToString(); 
+        
 	}
-	
-	// Update is called once per frame
-	void Update ()
+    public void display()
+    {
+        timerText.text = "Time: " + timer.ToString();
+
+    }
+
+    // Update is called once per frame
+    void Update ()
     {
         timer = timer - 0.015f;
         if (timer >= 0.0f)
@@ -38,5 +43,9 @@ public class TimeScript : MonoBehaviour {
                 SceneManager.LoadScene(MenuScene);
             }
         }
+    }
+
+    
+    public void addSubComponent(IDisplayComponent c) {
     }
 }
