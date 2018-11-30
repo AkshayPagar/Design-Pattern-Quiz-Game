@@ -56,7 +56,8 @@ public class MenuScript : MonoBehaviour
         PlayerPrefs.SetInt("score", 0);
         TimeScript.timer = 100.0f;
         LifeScript.life = 3;
-        HintScript.hints = 1;
+        HintManager hintManager = HintManager.GetInstance();
+        hintManager.TransitionTo(new HintNotUsed());
     }
 
     void Update()
