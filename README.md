@@ -25,3 +25,8 @@ Project Journal available at following locations for **Mystery Room Design Patte
 [Week4 Scrum Report](Project%20Journal/Week4%20Scrum%20Report.md)
 
 
+## Project Video
+
+![Mystery Room Design Patterns](Mystery%20Room%20Design%20Patterns.gif)
+
+
