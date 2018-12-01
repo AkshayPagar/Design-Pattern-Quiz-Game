@@ -59,14 +59,15 @@
 ## Team Member : Nikita Bairagi
 
 ### What task did I work on / complete?
-- Completed integration of pattern scene , answer buttons, score and timer.
+- Implemented Composite Pattern in the code 
 
 ### What am I planning to work on next ?
-- Implementation of composite pattern in the code.
+- None
 
 ### what task are blocked waiting on another team member?
 - None
 
 ### XP Core Value: Communication
-- We communicated face to face multiple times in the week. And shared knowledge about implementing patterns in the code.
+
+- We constantly kept in touch and discussed on the progress of the project. Towards the end of the project whenever someone needed clarification we quickly got on a call and discussed about it, which helped in resolving the issues quickly.
 
