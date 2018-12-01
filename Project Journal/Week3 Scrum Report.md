@@ -26,7 +26,7 @@
 - Implemented Menu Screen with various menu options to start new game, see credits, instructions etc. 
 - Integrated all the screens and implemented flow of the scene. 
 - Implemented Command pattern for the Menu options.
-- Developed screen option butons for answers.
+- Developed screen option buttons for answers.
 
 #### What am I planning to work on next ?
 
