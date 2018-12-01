@@ -1,22 +1,22 @@
-
-
 ## Team Member : Sneha Thomas
 ---
 #### What task did I work on / complete ?
-- Implemented the ScoreBoard and RemainingLives object to update user scores/lives based on whether the user has entered right or wrong answer.
-- Implemented Observer Pattern for the ScoreBoard Object.
+
+- Integrated and tested the game to make sure it is bug-free.
+- Modified the Class Diagram to add Observer pattern related classes.
+- Added Help and Instruction details to the game.
 
 #### What am I planning to work on next ?
 
-- Integration and Testing of the Game.
-- Prepare for the Presentation.
+- None
 
 #### What task are blocked waiting on another team member ?
+
 - None
 
 #### XP Core Value: Feedback
-
-- We met multiple times last week to update the status and performed peer reviews to identify any code issues.
+- Each feature in the game was thoroughly tested by all the team members and their feedback was gathered, reviewed and implemented when found relevant.
+- After the implementation of design patterns, every other team member reviewed the code and provided feedback to make sure that it is completely free of bugs. 
 
 
 
