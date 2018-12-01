@@ -23,23 +23,19 @@
 ## Team Member : Akshay Pagar
 ---
 #### What task did I work on / complete ?
-- Implemented Menu Screen with various menu options to start new game, see credits, instructions etc. 
-- Integrated all the screens and implemented flow of the scene. 
-- Implemented Command pattern for the Menu options.
-- Developed screen option butons for answers.
+- Integration and Testing of the Game.
+- Worked on final UI changes. 
+- Drawing UML diagrams and Use case Specification.
 
 #### What am I planning to work on next ?
 
-- Integration and Testing of the Game.
-- Drawing of UML diagrams for the game. 
+- None 
 
 #### What task are blocked waiting on another team member ?
 - None
 
 #### XP Core Value: Respect
-
-- All the team members assisted each other when they were stuck.
-- Every project member was appreciated for the work they have completed.
+- Every project member's work was celebrated after the imlementation was done.
 
 
 ## Team Member : Mayur Barge
