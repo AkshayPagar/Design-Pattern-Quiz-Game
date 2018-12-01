@@ -5,5 +5,5 @@ using UnityEngine;
 public interface IDisplayComponent{
 
     void display();
-    void addSubComponent(IDisplayComponent g);
+    void addSubComponent(IDisplayComponent c);
 }

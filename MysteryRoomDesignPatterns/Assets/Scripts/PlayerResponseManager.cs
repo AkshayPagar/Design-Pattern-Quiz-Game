@@ -77,9 +77,12 @@ public class PlayerResponseManager : IPlayerResponseSubject
         currentScene = SceneManager.GetActiveScene();
         if (!updateSceneKeys[currentScene.name])
         {
-            updateSceneKeys[currentScene.name] = true;
+
             if (button.name == answerKeys[currentScene.name])
+            {
+                updateSceneKeys[currentScene.name] = true;
                 notifyObservers();
+            }
         }
     }
 
