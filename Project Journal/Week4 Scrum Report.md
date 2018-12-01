@@ -25,7 +25,7 @@
 #### What task did I work on / complete ?
 - Integration and Testing of the Game.
 - Worked on final UI changes. 
-- Drawing UML diagrams and Use case Specification.
+- Drawing UML class diagrams.
 
 #### What am I planning to work on next ?
 
