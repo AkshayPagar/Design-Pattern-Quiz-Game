@@ -45,22 +45,20 @@
 ## Team Member : Mayur Barge
 ---
 #### What task did I work on / complete ?
-- Completed development of Adaptor Pattern screen 
-- Also completed Hint feature on screen
+- Made changes to State pattern implementation
+- Worked on Ad video
 
 
 #### What am I planning to work on next ?
 
-- Integration Hint feature with Game
-- Drawing of UML diagrams for the game.
-- Ad Video
+- None :)
 
 #### What task are blocked waiting on another team member ?
 - None
 
 #### XP Core Value: Simplicity
 
-- We restricted our conversation to whatever was planned as there were new ideas popping up ;)
+- 
 
 ## Team Member : Nikita Bairagi
 
